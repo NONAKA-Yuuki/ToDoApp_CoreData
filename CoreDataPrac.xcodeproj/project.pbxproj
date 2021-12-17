@@ -13,6 +13,8 @@
 		8B399343276C68C1006B4DED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B399342276C68C1006B4DED /* Preview Assets.xcassets */; };
 		8B399345276C68C1006B4DED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B399344276C68C1006B4DED /* Persistence.swift */; };
 		8B399348276C68C1006B4DED /* CoreDataPrac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B399346276C68C1006B4DED /* CoreDataPrac.xcdatamodeld */; };
+		8B39934F276C7315006B4DED /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39934E276C7315006B4DED /* ViewModel.swift */; };
+		8B399353276C7556006B4DED /* NewDataSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B399352276C7556006B4DED /* NewDataSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		8B399342276C68C1006B4DED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B399344276C68C1006B4DED /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8B399347276C68C1006B4DED /* CoreDataPrac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataPrac.xcdatamodel; sourceTree = "<group>"; };
+		8B39934E276C7315006B4DED /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8B399352276C7556006B4DED /* NewDataSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDataSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				8B39933B276C68C0006B4DED /* CoreDataPracApp.swift */,
 				8B39933D276C68C0006B4DED /* ContentView.swift */,
+				8B39934E276C7315006B4DED /* ViewModel.swift */,
+				8B399352276C7556006B4DED /* NewDataSheet.swift */,
 				8B39933F276C68C1006B4DED /* Assets.xcassets */,
 				8B399344276C68C1006B4DED /* Persistence.swift */,
 				8B399346276C68C1006B4DED /* CoreDataPrac.xcdatamodeld */,
@@ -143,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B39934F276C7315006B4DED /* ViewModel.swift in Sources */,
 				8B399345276C68C1006B4DED /* Persistence.swift in Sources */,
+				8B399353276C7556006B4DED /* NewDataSheet.swift in Sources */,
 				8B39933E276C68C0006B4DED /* ContentView.swift in Sources */,
 				8B399348276C68C1006B4DED /* CoreDataPrac.xcdatamodeld in Sources */,
 				8B39933C276C68C0006B4DED /* CoreDataPracApp.swift in Sources */,
@@ -285,6 +293,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +323,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
